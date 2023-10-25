@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+header, footer{
+    background-color: aquamarine;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
